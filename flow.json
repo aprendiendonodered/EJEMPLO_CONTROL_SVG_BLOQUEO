@@ -1,1 +1,1179 @@
-[]
+[
+    {
+        "id": "bf0abfda35043709",
+        "type": "tab",
+        "label": "Ejemplo de Control",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c4def5bf4f7717b3",
+        "type": "group",
+        "z": "bf0abfda35043709",
+        "name": "Cambiar SVG",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "733a237fcd292668",
+            "76abd12b245c3c3d",
+            "520d8d047b158618",
+            "840194d8d6195dfa",
+            "96224297a92e278a",
+            "1a577ba06c895883",
+            "dc35fdac5f858e5d",
+            "b2f05332a1777c14",
+            "bdaf01f67727f292",
+            "7b85bf6959624add",
+            "0bfefec532bb632b"
+        ],
+        "x": 674,
+        "y": 299,
+        "w": 672,
+        "h": 302
+    },
+    {
+        "id": "3dbe29d1d274c010",
+        "type": "group",
+        "z": "bf0abfda35043709",
+        "name": "Bloqueo de botones",
+        "style": {
+            "label": true,
+            "color": "#999999",
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "77b5598de0cd4c85",
+            "7002222765f2dbb5",
+            "97b3d12b5920dec3",
+            "86f9350301bce40c",
+            "052111b16430ea35",
+            "d603a0a604d7ee4e",
+            "51a89ac1a607a08c"
+        ],
+        "x": 54,
+        "y": 639,
+        "w": 852,
+        "h": 162
+    },
+    {
+        "id": "621a732755ad542d",
+        "type": "group",
+        "z": "bf0abfda35043709",
+        "name": "Consignas",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "0a372d41a73ff378",
+            "e78e975e6a5897a6",
+            "a24cf96590ab7d96",
+            "bdcdda38e0f694d8",
+            "05f96aa6e27b4144",
+            "d5d278730e8a5c41"
+        ],
+        "x": 54,
+        "y": 359,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "c987f9a5585a89ab",
+        "type": "group",
+        "z": "bf0abfda35043709",
+        "name": "Controles",
+        "style": {
+            "label": true,
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "fd5995556744480f",
+            "497d21f8ebd404e9",
+            "b33b0743f5e01e8e",
+            "b11db088373989e7"
+        ],
+        "x": 674,
+        "y": 19,
+        "w": 212,
+        "h": 242
+    },
+    {
+        "id": "169f587cfbcb9b9d",
+        "type": "group",
+        "z": "bf0abfda35043709",
+        "name": "Control temperatura",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "21508dcfabea3659",
+            "f20840d89e99d223",
+            "726d5290ec52e5ea",
+            "da070ac9dc789ac0"
+        ],
+        "x": 194,
+        "y": 39,
+        "w": 452,
+        "h": 122
+    },
+    {
+        "id": "bd104db22a349bf8",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b48448d41d8d0537",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "1ff87a5837c5fedd",
+        "type": "ui_group",
+        "name": "Casa",
+        "tab": "91960af93b0d68ae",
+        "order": 1,
+        "disp": false,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "91960af93b0d68ae",
+        "type": "ui_tab",
+        "name": "Control Temperatura",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ba419dc452cbf451",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "enriquecrespo.com",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "37731344570d47d8",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "1ff87a5837c5fedd",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "45b511dd4be57891",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "1ff87a5837c5fedd",
+        "order": 6,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "fea0ed4f23604eee",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "1ff87a5837c5fedd",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2fb7e1d55941a5ff",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "1ff87a5837c5fedd",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5abbb9548cde0482",
+        "type": "ui_spacer",
+        "z": "bf0abfda35043709",
+        "name": "spacer",
+        "group": "1ff87a5837c5fedd",
+        "order": 15,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "fd5995556744480f",
+        "type": "ui_template",
+        "z": "bf0abfda35043709",
+        "g": "c987f9a5585a89ab",
+        "group": "1ff87a5837c5fedd",
+        "name": "",
+        "order": 2,
+        "width": 14,
+        "height": 1,
+        "format": "<h3>Control Temperatura</h3>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 760,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "497d21f8ebd404e9",
+        "type": "ui_gauge",
+        "z": "bf0abfda35043709",
+        "g": "c987f9a5585a89ab",
+        "name": "",
+        "group": "1ff87a5837c5fedd",
+        "order": 12,
+        "width": 3,
+        "height": 2,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "70",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 770,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b33b0743f5e01e8e",
+        "type": "ui_switch",
+        "z": "bf0abfda35043709",
+        "g": "c987f9a5585a89ab",
+        "name": "",
+        "label": "Modo Manual",
+        "tooltip": "",
+        "group": "1ff87a5837c5fedd",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 780,
+        "y": 160,
+        "wires": [
+            [
+                "b11db088373989e7",
+                "29b2a65fbaef835a"
+            ]
+        ]
+    },
+    {
+        "id": "b11db088373989e7",
+        "type": "ui_led",
+        "z": "bf0abfda35043709",
+        "g": "c987f9a5585a89ab",
+        "order": 4,
+        "group": "1ff87a5837c5fedd",
+        "width": 3,
+        "height": 1,
+        "label": "Estado Control",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#cecece",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 770,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0a372d41a73ff378",
+        "type": "ui_slider",
+        "z": "bf0abfda35043709",
+        "g": "621a732755ad542d",
+        "name": "",
+        "label": "Consigna Inicio",
+        "tooltip": "",
+        "group": "1ff87a5837c5fedd",
+        "order": 10,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "4",
+        "max": "10",
+        "step": 1,
+        "className": "",
+        "x": 300,
+        "y": 440,
+        "wires": [
+            [
+                "05f96aa6e27b4144"
+            ]
+        ]
+    },
+    {
+        "id": "77b5598de0cd4c85",
+        "type": "ui_template",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "group": "1ff87a5837c5fedd",
+        "name": "Bloquea",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 240,
+        "y": 680,
+        "wires": [
+            [
+                "7002222765f2dbb5"
+            ]
+        ]
+    },
+    {
+        "id": "7002222765f2dbb5",
+        "type": "toggle",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "name": "",
+        "onOffTopic": "",
+        "onValue": "true",
+        "onType": "bool",
+        "offValue": "false",
+        "offType": "bool",
+        "toggleTopic": "",
+        "toggleValue": "",
+        "toggleType": "any",
+        "passOnOff": "always",
+        "x": 370,
+        "y": 680,
+        "wires": [
+            [
+                "97b3d12b5920dec3",
+                "86f9350301bce40c"
+            ]
+        ]
+    },
+    {
+        "id": "97b3d12b5920dec3",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 680,
+        "wires": [
+            [
+                "b33b0743f5e01e8e",
+                "a24cf96590ab7d96",
+                "d603a0a604d7ee4e",
+                "052111b16430ea35"
+            ]
+        ]
+    },
+    {
+        "id": "6a5e93ec2ab3a60c",
+        "type": "ui_template",
+        "z": "bf0abfda35043709",
+        "group": "1ff87a5837c5fedd",
+        "name": "css etc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  .filled { \n      height: 100% !important;\n\n      padding: 0 !important;\n      margin: 0 !important;\n  }\n  .nr-dashboard-template {\n      padding: 0;\n      margin: 0;\n  }\n  \n  .rounded {\n  border-radius: 12px 12px 12px 12px;\n}\n \n   .bigfont {\n  font-size: 18px;\n}\n\n   .smallfont {\n  font-size: 10px;\n}\n  \n</style>\n\n<script>\n$('.vibrate').on('click', function() {\n  navigator.vibrate(100);\n});\n\nfunction restore_bg(x) {\n            $(this).css(\"background-color\", x);\n    };\n\n$('.touched').on('mousedown', function() {\n    \n    var x= $(this).css(\"background-color\");\n    $(this).css(\"background-color\", \"yellow\");\n    \n    setTimeout(restore_bg.bind(this,x),100);\n    navigator.vibrate(80);\n    });\n    \n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e78e975e6a5897a6",
+        "type": "ui_slider",
+        "z": "bf0abfda35043709",
+        "g": "621a732755ad542d",
+        "name": "",
+        "label": "Consigna Parada",
+        "tooltip": "",
+        "group": "1ff87a5837c5fedd",
+        "order": 13,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "12",
+        "max": "20",
+        "step": 1,
+        "className": "",
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "1a577ba06c895883"
+            ]
+        ]
+    },
+    {
+        "id": "a24cf96590ab7d96",
+        "type": "ui_slider",
+        "z": "bf0abfda35043709",
+        "g": "621a732755ad542d",
+        "name": "",
+        "label": "Arranque Alta Temperatura",
+        "tooltip": "",
+        "group": "1ff87a5837c5fedd",
+        "order": 14,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "40",
+        "max": "70",
+        "step": 1,
+        "className": "",
+        "x": 340,
+        "y": 560,
+        "wires": [
+            [
+                "dc35fdac5f858e5d"
+            ]
+        ]
+    },
+    {
+        "id": "733a237fcd292668",
+        "type": "ui_svg_graphics",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "group": "1ff87a5837c5fedd",
+        "order": 11,
+        "width": 5,
+        "height": 2,
+        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0\" y=\"0\" height=\"100%\" viewBox=\"4.647887229919434 8.873239517211914 93.09859466552734 31.690141677856445\" width=\"100%\" preserveAspectRatio=\"xMinYMin meet\"><defs id=\"svgEditorDefs\"><pattern id=\"svgEditorGrid2\" patternUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"2\" height=\"2\" viewBox=\"0 0 10 10\">\n\t \n\t <g style=\"fill:none;stroke:black;stroke-width:0.4\" transform=\"scale(0.1)\">\n\t     troisieme niveau 10 1 \n\t     <g style=\"stroke-dasharray:2 8;\">\n\t\t<path d=\"M-1 0 h102 M-1 10 h102 M-1 20 h102 M-1 30 h102 M-1 40 h102 M-1 50 h102 M-1 60 h102 M-1 70 h102 M-1 80 h102 M-1 90 h102 M-1 100 h102\"/>\n\t\t<path d=\"M0-1 v102 M10-1 v102 M20-1 v102 M30-1 v102 M40-1 v102 M50 -1 v102 M60-1 v102 M70-1 v102 M80-1 v102 M90-1 v102 M100-1 v102\"/>\n\t     </g>\n\t      deuxieme niveau 50/3 \n\t     <g style=\"stroke-dasharray:6 44;\">\n\t\t<path d=\"M-3 0 h106 M-3 50 h106 M-3 100 h106\"/>\n\t\t<path d=\"M0-3 v106 M50-3 v106 M100-3 v106\"/>\n\t     </g>\n\t      premier niveau 100/5 \n\t      <g style=\"stroke-dasharray:10 90;\">\n\t\t<path d=\"M-5 0 h110 M-5 100 h110\"/>\n\t\t<path d=\"M0-5 v119 M100-5 v110\"/>\n\t     </g>\n\t </g>\n\t</pattern></defs>\n  <rect id=\"svgEditorBackground\" x=\"4.647887229919434\" y=\"8.873239517211914\" width=\"93.09859466552734\" height=\"31.690141677856445\" style=\"fill:url(#svgEditorGrid2); stroke: none;\"/>\n  <!-- Add here your SVG shapes (circles, rectangles, ...) -->\n  <!-- Or remove everything, if you want to paste an entire drawing (<svg...>...</svg>).-->\n  <rect x=\"9.054084777832031\" y=\"21.306765075468682\" style=\"fill:red;stroke:black;stroke-width:1px;\" id=\"e1_rectangle\" width=\"20.845800\" height=\"7.886930\"/>\n  <rect x=\"29.8991641998291\" y=\"21.306663985991143\" style=\"fill:green;stroke:black;stroke-width:1px;\" id=\"e2_rectangle\" width=\"20.845800\" height=\"7.886930\"/>\n  <rect x=\"51.02596664428711\" y=\"21.306663985991143\" style=\"fill:red;stroke:black;stroke-width:1px;\" id=\"e3_rectangle\" width=\"20.845800\" height=\"7.886930\"/>\n  <rect x=\"72.01133728027344\" y=\"21.306663985991143\" style=\"fill:green;stroke:black;stroke-width:1px;\" id=\"e4_rectangle\" width=\"20.845800\" height=\"7.886930\"/><text style=\"fill:teal;font-family:Arial;font-size:8px;\" x=\"27.5295\" y=\"18.5491\" id=\"e2_texte\">6</text><text style=\"fill:teal;font-family:Arial;font-size:8px;\" x=\"46.6593\" y=\"18.2076\" id=\"e1_texte\">16</text><text style=\"fill:teal;font-family:Arial;font-size:8px;\" x=\"67.6447\" y=\"18.0667\" id=\"e3_texte\">32</text><text style=\"fill:black;font-family:Arial;font-size:20px;\" x=\"16.786\" y=\"27.469\" id=\"e4_texte\"/><text style=\"fill:black;font-family:Arial;font-size:6px;\" x=\"13.3778\" y=\"27.286\" id=\"e5_texte\">OFF</text><text style=\"fill:black;font-family:Arial;font-size:6px;\" x=\"55.5323\" y=\"27.4056\" id=\"e6_texte\">OFF</text><text style=\"fill:black;font-family:Arial;font-size:6px;\" x=\"36.2189\" y=\"27.3458\" id=\"e7_texte\">ON</text><text style=\"fill:black;font-family:Arial;font-size:6px;\" x=\"77.7157\" y=\"27.286\" id=\"e8_texte\">ON</text>\n  <path d=\"M19.297349,31.710790634985692l2.5711,6.8165l-5.2619,0Z\" style=\"fill:red;stroke:black;stroke-width:1px;\" id=\"e2_pathH\"/>\n  <path d=\"M40.165306,32.00975863498569l2.5711,6.8165l-5.2619,0Z\" style=\"fill:green;stroke:black;stroke-width:1px;\" id=\"e3_pathH\"/>\n  <path d=\"M61.870373,31.89017163498569l2.5711,6.8165l-5.2619,0Z\" style=\"fill:red;stroke:black;stroke-width:1px;\" id=\"e1_pathH\"/>\n  <path d=\"M82.140395,32.12934563498569l2.5711,6.8165l-5.2619,0Z\" style=\"fill:green;stroke:black;stroke-width:1px;\" id=\"e4_pathH\"/>\n</svg>",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "noClickWhenDblClick": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "both",
+        "zooming": "enabled",
+        "panOnlyWhenZoomed": true,
+        "doubleClickZoomEnabled": true,
+        "mouseWheelZoomEnabled": true,
+        "dblClickZoomPercentage": 150,
+        "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit !important;\n}",
+        "name": "",
+        "x": 1240,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76abd12b245c3c3d",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"command\": \"update_text\",\t   \"elementId\": \"e2_texte\",\t   \"textContent\": $flowContext(\"con_arranque\")\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "socketid",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 340,
+        "wires": [
+            [
+                "733a237fcd292668"
+            ]
+        ]
+    },
+    {
+        "id": "520d8d047b158618",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"command\": \"update_text\",\t   \"elementId\": \"e1_texte\",\t   \"textContent\": $flowContext(\"con_parada\")\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "socketid",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 380,
+        "wires": [
+            [
+                "733a237fcd292668"
+            ]
+        ]
+    },
+    {
+        "id": "840194d8d6195dfa",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"command\": \"update_text\",\t   \"elementId\": \"e3_texte\",\t   \"textContent\": $flowContext(\"con_calor\")\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "socketid",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 420,
+        "wires": [
+            [
+                "733a237fcd292668"
+            ]
+        ]
+    },
+    {
+        "id": "7b85bf6959624add",
+        "type": "ui_ui_control",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "events": "connect",
+        "x": 780,
+        "y": 520,
+        "wires": [
+            [
+                "bdaf01f67727f292"
+            ]
+        ]
+    },
+    {
+        "id": "b2f05332a1777c14",
+        "type": "comment",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "Actualizar imagen al conectar o referscar o iniciar instancia",
+        "info": "",
+        "x": 930,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "96224297a92e278a",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "con_arranque",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 340,
+        "wires": [
+            [
+                "76abd12b245c3c3d"
+            ]
+        ]
+    },
+    {
+        "id": "1a577ba06c895883",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "con_parada",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 380,
+        "wires": [
+            [
+                "520d8d047b158618"
+            ]
+        ]
+    },
+    {
+        "id": "dc35fdac5f858e5d",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "con_calor",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 420,
+        "wires": [
+            [
+                "840194d8d6195dfa"
+            ]
+        ]
+    },
+    {
+        "id": "bdaf01f67727f292",
+        "type": "delay",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 520,
+        "wires": [
+            [
+                "76abd12b245c3c3d",
+                "520d8d047b158618",
+                "840194d8d6195dfa"
+            ]
+        ]
+    },
+    {
+        "id": "0bfefec532bb632b",
+        "type": "inject",
+        "z": "bf0abfda35043709",
+        "g": "c4def5bf4f7717b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 790,
+        "y": 560,
+        "wires": [
+            [
+                "bdaf01f67727f292"
+            ]
+        ]
+    },
+    {
+        "id": "bdcdda38e0f694d8",
+        "type": "inject",
+        "z": "bf0abfda35043709",
+        "g": "621a732755ad542d",
+        "name": "",
+        "props": [
+            {
+                "p": "enabled",
+                "v": "false",
+                "vt": "bool"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "6",
+        "payloadType": "str",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "0a372d41a73ff378"
+            ]
+        ]
+    },
+    {
+        "id": "05f96aa6e27b4144",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "621a732755ad542d",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "enabled",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "96224297a92e278a"
+            ]
+        ]
+    },
+    {
+        "id": "86f9350301bce40c",
+        "type": "function",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "name": "",
+        "func": "msgout = {};\nif (msg.payload == false) {\n        msgout.template = \"<md-button class=\\\"vibrate filled touched smallfont rounded\\\" style=\\\"background-color:#c0392b\\\" ng-click=\\\"send({payload: 'OFF'})\\\"> \\\n        <i class=\\\"fa fa-lock fa-4x\\\"></i> \\\n        </md-button>\"}\nelse {\n    msgout.template = \"<md-button class=\\\"vibrate filled touched smallfont rounded\\\" style=\\\"background-color:#148F77\\\" ng-click=\\\"send({payload: 'ON'})\\\"> \\\n        <i class=\\\"fa fa-unlock fa-4x\\\"></i> \\\n        </md-button>\"\n}\nreturn msgout;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 760,
+        "wires": [
+            [
+                "77b5598de0cd4c85"
+            ]
+        ]
+    },
+    {
+        "id": "d603a0a604d7ee4e",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "con_parada",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 720,
+        "wires": [
+            [
+                "e78e975e6a5897a6"
+            ]
+        ]
+    },
+    {
+        "id": "052111b16430ea35",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "con_calor",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 680,
+        "wires": [
+            [
+                "a24cf96590ab7d96"
+            ]
+        ]
+    },
+    {
+        "id": "d5d278730e8a5c41",
+        "type": "comment",
+        "z": "bf0abfda35043709",
+        "g": "621a732755ad542d",
+        "name": "Consigna inicio deshabilitada",
+        "info": "",
+        "x": 200,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "470ef25a66e96386",
+        "type": "mqtt in",
+        "z": "bf0abfda35043709",
+        "name": "",
+        "topic": "casa/raspberrypi3/Temperatura",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "ba419dc452cbf451",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "497d21f8ebd404e9",
+                "da070ac9dc789ac0"
+            ]
+        ]
+    },
+    {
+        "id": "51a89ac1a607a08c",
+        "type": "inject",
+        "z": "bf0abfda35043709",
+        "g": "3dbe29d1d274c010",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 760,
+        "wires": [
+            [
+                "7002222765f2dbb5"
+            ]
+        ]
+    },
+    {
+        "id": "21508dcfabea3659",
+        "type": "switch",
+        "z": "bf0abfda35043709",
+        "g": "169f587cfbcb9b9d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "con_calor",
+                "vt": "flow"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 390,
+        "y": 100,
+        "wires": [
+            [
+                "f20840d89e99d223"
+            ],
+            [
+                "726d5290ec52e5ea"
+            ]
+        ]
+    },
+    {
+        "id": "f20840d89e99d223",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "169f587cfbcb9b9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 80,
+        "wires": [
+            [
+                "b11db088373989e7"
+            ]
+        ]
+    },
+    {
+        "id": "726d5290ec52e5ea",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "g": "169f587cfbcb9b9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 120,
+        "wires": [
+            [
+                "b11db088373989e7"
+            ]
+        ]
+    },
+    {
+        "id": "29b2a65fbaef835a",
+        "type": "change",
+        "z": "bf0abfda35043709",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mode",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da070ac9dc789ac0",
+        "type": "switch",
+        "z": "bf0abfda35043709",
+        "g": "169f587cfbcb9b9d",
+        "name": "",
+        "property": "mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 100,
+        "wires": [
+            [
+                "21508dcfabea3659"
+            ]
+        ]
+    }
+]

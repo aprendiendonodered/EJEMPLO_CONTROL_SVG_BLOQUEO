@@ -2,7 +2,12 @@
     "name": "EJEMPLO_CONTROL_SVG_BLOQUEO",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-toggle": "0.1.1",
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-contrib-ui-svg": "2.3.1",
+        "node-red-dashboard": "3.1.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
